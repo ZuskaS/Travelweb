@@ -78,6 +78,8 @@ main {
 
 .travel {
   /* tento div při scrollování neodjede s obsahem, ale přilepí 10px pod navigací (50px od vrchu obsahu) */
+  position: sticky;
+  top: 50px;
 
 }
 
